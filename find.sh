@@ -1,0 +1,1 @@
+while true; do pnpm install -D $(pnpm start 2>&1 | grep 'Error: Cannot find module' | sed "s/Error: Cannot find module '\([a-z.-]\+\)'/\1/g"); done

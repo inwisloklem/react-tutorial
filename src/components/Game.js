@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Board from './Board'
 
-class Game extends React.Component {
+class Game extends Component {
   render () {
     return (
       <div className='game'>
