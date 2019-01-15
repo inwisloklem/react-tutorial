@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import Square from '../Square'
 import calculateWinner from '../../helpers/calculateWinner'
-import styles from './Board.module.sass'
+import styles from './index.module.sass'
 
 export default function Board () {
   const [squares, setSquares] = useState(Array(9).fill(null))

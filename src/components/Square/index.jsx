@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Square.module.sass'
+import styles from './index.module.sass'
 
 export default function Square (props) {
   return (

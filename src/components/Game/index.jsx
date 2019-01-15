@@ -1,6 +1,6 @@
 import React from 'react'
 import Board from '../Board'
-import styles from './Game.module.sass'
+import styles from './index.module.sass'
 
 export default function Game () {
   return (
