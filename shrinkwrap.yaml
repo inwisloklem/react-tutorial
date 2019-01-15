@@ -44,10 +44,10 @@ dependencies:
   postcss-preset-env: 6.3.1
   postcss-safe-parser: 4.0.1
   prop-types: 15.6.2
-  react: 16.7.0
+  react: 16.8.0-alpha.0
   react-app-polyfill: 0.2.0
   react-dev-utils: 7.0.1
-  react-dom: 16.7.0
+  react-dom: 16.8.0-alpha.0
   resolve: 1.8.1
   sass-loader: 7.1.0
   style-loader: 0.23.0
@@ -8483,32 +8483,32 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-AN/RKZKHsyB2FebKSyMLOecvjuzZ54lzsLYF8wNmwwgRA3dVC4vhYsafvME7JD4q7RUB0bejqFWjOS9QtN48Zg==
-  /react-dom/16.7.0:
+  /react-dom/16.8.0-alpha.0:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       prop-types: 15.6.2
-      scheduler: 0.12.0
+      scheduler: 0.13.0-alpha.0
     dev: false
     peerDependencies:
       react: ^16.0.0
     resolution:
-      integrity: sha512-D0Ufv1ExCAmF38P2Uh1lwpminZFRXEINJe53zRAbm4KPwSyd6DY/uDoS0Blj9jvPpn1+wivKpZYc8aAAN/nAkg==
+      integrity: sha512-OGfLUXGxtMgqLB1BqnB9flVCvc8VvAnhQYeFr+EUzwiODcD34dPrxtfa7ccK4dwzcPi8HRLSyBcaQi2OvVoUww==
   /react-error-overlay/5.1.2:
     dev: false
     resolution:
       integrity: sha512-7kEBKwU9R8fKnZJBRa5RSIfay4KJwnYvKB6gODGicUmDSAhQJ7Tdnll5S0RLtYrzRfMVXlqYw61rzrSpP4ThLQ==
-  /react/16.7.0:
+  /react/16.8.0-alpha.0:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
       prop-types: 15.6.2
-      scheduler: 0.12.0
+      scheduler: 0.13.0-alpha.0
     dev: false
     engines:
       node: '>=0.10.0'
     resolution:
-      integrity: sha512-StCz3QY8lxTb5cl2HJxjwLFOXPIFQp+p+hxQfc8WE0QiLfCtIlKj8/+5tjjKm8uSTlAW+fCPaavGFS06V9Ar3A==
+      integrity: sha512-B/nJJkNqV4JAJQ1M0Q38ZvhZ6BoYsjyZq29hbsIIPYayn/0DcYhu7tExpfzdtTC0SnUcA+RnDBTlXTEJ5b9PEg==
   /read-pkg-up/1.0.1:
     dependencies:
       find-up: 1.1.2
@@ -9008,13 +9008,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-2mgiX2VOarcQv8G40WdJ5QJniYdsPr0yGedkd98PqApodsS9DG29qyHl/X65OILm7Bapd1/zUUvTHVZwNLhXvQ==
-  /scheduler/0.12.0:
+  /scheduler/0.13.0-alpha.0:
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
     dev: false
     resolution:
-      integrity: sha512-t7MBR28Akcp4Jm+QoR63XgAi9YgCUmgvDHqf5otgAj4QvdoBE4ImCX0ffehefePPG+aitiYHp0g/mW6s4Tp+dw==
+      integrity: sha512-+DbRwO53hlLso4gzrSIqcfNe8eRMMaV4gd4eySGisbyLBrp5unTpAMR0UAbrqlQLTGhnOFNoQAfaZTz4iPj1RQ==
   /schema-utils/0.4.7:
     dependencies:
       ajv: 6.7.0
@@ -10753,10 +10753,10 @@ specifiers:
   postcss-preset-env: 6.3.1
   postcss-safe-parser: 4.0.1
   prop-types: ^15.6.2
-  react: ^16.7.0
+  react: next
   react-app-polyfill: ^0.2.0
   react-dev-utils: ^7.0.1
-  react-dom: ^16.7.0
+  react-dom: next
   resolve: 1.8.1
   sass-loader: 7.1.0
   style-loader: 0.23.0

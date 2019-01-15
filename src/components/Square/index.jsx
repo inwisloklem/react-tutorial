@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import styles from './Square.module.sass'
 
-function Square (props) {
+export default function Square (props) {
   return (
     <button
-      className='square'
-      onClick={() => props.onClick()}
+      className={styles.square}
+      onClick={props.onClick}
     >
       {props.value}
     </button>
@@ -16,5 +17,3 @@ Square.propTypes = {
   value: PropTypes.string,
   onClick: PropTypes.any
 }
-
-export default Square
