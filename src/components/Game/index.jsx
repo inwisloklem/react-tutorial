@@ -60,8 +60,12 @@ export default function Game () {
         />
       </div>
       <div className={styles.gameInfo}>
-        <div className={styles.status}>{winner ? 'Winner:' : 'Next player:'} <strong>{winner !== null ? winner : xIsNext ? 'X' : 'O'}</strong></div>
-        <ol className={styles.moveList}>{moves}</ol>
+        <div className={styles.status}>
+          {winner ? 'Winner:' : 'Next player:'} <strong>{winner !== null ? winner : xIsNext ? 'X' : 'O'}</strong>
+        </div>
+        <ol className={styles.moveList}>
+          {moves}
+        </ol>
       </div>
     </div>
   )
