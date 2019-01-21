@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 import Square from '../Square'
 import styles from './index.module.sass'
 
-export default function Board (props) {
-  const renderSquares = props.squares.map((square, i) => {
+export default function Board ({ squares, onClick }) {
+  const renderSquares = squares.map((square, i) => {
     return <Square
       value={square}
       key={i}
-      onClick={props.onClick(i)}
+      onClick={onClick(i)}
     />
   })
 
